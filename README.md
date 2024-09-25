@@ -1,2 +1,2 @@
 # Mele: RIMBA
-Real-time IOT Monitoring for Beehives and Apiaries
+Real-time IoT Monitoring for Beehives and Apiaries
