@@ -2,3 +2,6 @@ runs/*
 runs
 Datasets/*
 Datasets
+*.log
+catboost_info
+catboost_info/*
