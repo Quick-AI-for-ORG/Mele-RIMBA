@@ -5,3 +5,4 @@ Datasets
 *.log
 catboost_info
 catboost_info/*
+Classifiers/classifiers.zip
