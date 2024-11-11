@@ -2,9 +2,9 @@ import subprocess
 import serial
 import time
 
-THRESHOLD = 75.0  
-SKETCH = "sketch_oct14b/sketch_oct14b.ino"
-PORT = "/dev/cu.usbmodem11301"
+THRESHOLD = 65.0  
+SKETCH = "HardwareTriggers/sketch_oct14b/sketch_oct14b.ino"
+PORT = "/dev/cu.usbmodem11401"
 
 
 def compileArduino(SKETCH):
