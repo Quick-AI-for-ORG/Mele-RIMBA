@@ -57,4 +57,3 @@ Project milestones and deliverables are outlined in the Gantt chart, detailing t
 
 This project is supervised by Dr. Walaa Hassan and Eng. Hamsa Mahmoud and is supported by the "Al-Badran" beekeeping group. 
 
-For more information, visit our [GitHub repository](https://github.com/Quick-AI-for-ORG/Mele-RIMBA).
