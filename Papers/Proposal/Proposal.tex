@@ -34,30 +34,31 @@ sorting=ynt
 	\maketitle
 	\begin{table}[htp]
 		\centering
-		\vspace{-1 cm}
+
 		\caption{Document Version History}
 		\vspace{0.25 cm}
 		\begin{tabular}{|l|l|l|}
 			\hline
 			\thead{Proposal Version}    & \thead{Date} & \thead{Reason for Change}  \\ \hline
-			1.0 & 8-September-2024   & \makecell{Proposal First version}   \\
+			1.0 & 13-November-2024   & \makecell{Proposal First version}   \\
 			\hline
 		\end{tabular}
 		
 	\end{table}
 	\begin{table}[htp]
+		\vspace{1 cm}
 		\begin{tabular}{cc}
 			\thead{GitHub:} {\href{https://github.com/Quick-AI-for-ORG/Mele-RIMBA}{\textit{https://github.com/Quick-AI-for-ORG/Mele-RIMBA}}
 			}   
 		\end{tabular}
+		\vspace{1 cm}
 	\end{table}
 	
 	
 	\begin{abstract}
-		The main idea of this project is to study the ........
-		(Word Limit 150)
+		Beekeeping has long been one of the quintessential agricultural activities that both provides humans with sustenance, while also contributing to the betterment of the overall ecosystem and surrounding environment. Unfortunately, until recently, beekeeping technology has remained relatively stagnant; mainly relying on tried-and-true methods that have been passed down across generations of beekeepers. However, the \textbf{Mele-RIMBA} hive aims to change that through utilizing cutting-edge \textit{IoT} technology bolstered by state-of-the-art \textit{AI} models to aid in facilitating and improving the beekeeping profession through a myriad of features, including continuous surveillance of beehive status and honey yield tracking along with supremely efficient temperature and humidity regulation systems accompanied by a highly selective intrusion prevention system. The \textit{Mele-RIMBA} team aspires to provide bees with a safe, sustainable and comfortable habitat ultimately improving bee health and honey production whilst supplying hive-owners with a substantial upgrade option for their traditional outdated beehives.
 	\end{abstract}
-	
+	\newpage
 	\section{Introduction}
 	
 	\subsection{Background} 
@@ -93,8 +94,9 @@ sorting=ynt
 	progress on the SDGs.
 	\section{Project Description}
 	\textbf{Mele}, an Italian word derived from the Latin term \textit{Mel} which means \textbf{honey}, is designed for \textbf{Real-time IoT Monitoring for Beehives and Apiaries}. In other words, \textit{Mele}'s most preeminent mission is to design, implement and build a fully operational system aimed at enhancing and improving beekeeping practices. By providing innovative sustainable and efficient solutions, \textit{Mele} aspires to ensure optimal hive conditions and bee health. \\ \newline
-	With this in mind, the system will integrate several sensors, ranging from temperature and humidity to flammable gas detectors, as well as acoustic and visual sensors, to monitor critical parameters affecting the apiary. These sensors will be coupled with advanced \textit{AI} models to analyze bee behavior, forecast internal and external climate changes, and identify potential threats. \\ \newline
-	All the components and upgrades suggested and implemented must function alongside a robust software platform that grants beekeepers remote control over their hives and pre-disastrous alerts. Above all, the entire setup is imbued with scalable and cost-effective solutions that can be swiftly adapted to various hive configurations while providing a durable design for long-term outdoor use.
+	With this in mind, the system will integrate several sensors, ranging from temperature and humidity to flammable gas detectors, as well as acoustic and visual sensors, to monitor critical parameters affecting the apiary. These sensors will be coupled with advanced \textit{AI} models to analyze bee behavior, forecast internal and external climate changes, and identify potential threats.
+	\newpage
+	\hspace{-0.78 cm} All the components and upgrades suggested and implemented must function alongside a robust software platform that grants beekeepers remote control over their hives and pre-disastrous alerts. Above all, the entire setup is imbued with scalable and cost-effective solutions that can be swiftly adapted to various hive configurations while providing a durable design for long-term outdoor use.
 	\vspace{0.5 cm}
 	\subsection{Objectives}
 	
@@ -106,13 +108,13 @@ sorting=ynt
 		\item Enhance bee health and quality of life by continuous surveillance of hives and bees behavior to diagnose and alert diseases or pests as early as possible for immediate action.
 		
 		\item Improve real-time insect detection using artificial intelligence (AI) and deep learning algorithms for the identification of insects especially bees and wasps.
-		
+		\vspace{1 cm}
 	\end{itemize}
-	\newpage
 	\subsection{Scope}
 	The system is not designed to be a replacement for the existing conventional operating hives, but it’s rather delineated to become an upgradable addition that beekeepers across the middle east can easily purchase, install and adapt.
 	The typical hive layout applied across the middle east and other global applications follows a structural blueprint chiefly known as \textbf{“Langstroth”} hives. 
 	\begin{table}[H]
+		\vspace{1 cm}
 		\centering
 		\caption{Langstroth 10-frame box dimensions \cite{wood2024langstroth}}
 		\vspace{0.25 cm}
@@ -140,9 +142,10 @@ sorting=ynt
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.4\textwidth]{Images/hive.jpg}
+		\includegraphics[width=0.7\textwidth]{Images/hive.jpg}
 		\caption{Typical Langstroth Hive \cite{CushmanBeeLang}}
 		\label{fig:LANGSTROTH_HIVE}
+		\vspace{1.5 cm}
 	\end{figure}
 	
 	\hspace{-0.5 cm}With this in mind, the system shall aspire to:
@@ -156,7 +159,7 @@ sorting=ynt
 		\item Include a remote monitoring interface for beekeepers to control their hives and monitor different logs, readings or alerts.
 	\end{itemize} 
 	Markedly, the system shall achieve and meet all its objectives while taking into account the constraints of the fully operational hives around the middle east.
-	
+	\newpage
 	\subsection{Project Overview}
 	
 	
@@ -437,17 +440,18 @@ sorting=ynt
 		\item A major component of the proposed system is the \textbf{real-time recognition of bees and identification of threats} such as wasps based on visual and acoustic data provided by on door sensors. Additionally, the automated door system enables selective entry and exit of bees effectively with the inclusion of an alert system all of which enhance hive security and minimize human interference.
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=0.9\textwidth]{Images/Pipelines/On Door Classifier Pipeline Diagram.png}
+			\includegraphics[width=\textwidth]{Images/Pipelines/On Door Classifier Pipeline Diagram.png}
 			\caption{On Door Classification}
 			\label{fig:DOOR_CLASSIFICATION}
+						\vspace{2 cm}
 		\end{figure}
 	\end{itemize}
-	\newpage
-	
+
 	\section{Proof of concept}
-	\subsubsection{Image based insect classification}
+	\subsection{Image based insect classification}
 	Using an amalgamation of purposefully selected image datasets, which were then heavily altered using image processing techniques to attain even an even greater degree of image diversity, 6 deep learning models were put up against each other to determine the prime model to be utilized in the differentiation between bees, wasps and other insects.
 	
+	\newpage
 	\begin{enumerate}
 		
 		\item \textbf{VGG-16} (Bee, Wasp or Other Insects) \\
@@ -468,6 +472,7 @@ sorting=ynt
 		\end{table}
 		\begin{figure}[H]
 			\centering
+			\vspace{1 cm}
 			\begin{minipage}{0.45\textwidth}
 				\centering
 				\includegraphics[width=0.8\textwidth]{Images/Confusion/vgg bees train.png}\\ \vspace{0.25 cm}
@@ -492,10 +497,10 @@ sorting=ynt
 				\includegraphics[width=0.8\textwidth]{Images/Confusion/vgg wasps test.png}\\ \vspace{0.25 cm}
 				Wasp Testing
 			\end{minipage}
-			\vspace{0.5 cm}
+			\vspace{1 cm}
 			\caption{VGG Confusion Matrices}
 		\end{figure}
-		
+		\newpage
 		\item \textbf{Mobile-Net} \textit{V3 Large}  (Bee, Wasp or Other Insects) \\
 		\begin{table}[H]
 			\centering
@@ -592,7 +597,7 @@ sorting=ynt
 		\end{figure}
 	\end{enumerate}
 	As one can surmise from the previously projected metrics, it has been deduced that the optimal prime model that shall occupy the role of insect classification should be the ever-so vigilant ResNet-50 model.
-	\subsubsection{Audible buzz detection}
+	\subsection{Audible buzz detection}
 	To aid in determining insect type, an AI audio model trained on acoustic data shall supplement the image based model in hopes of achieving better accuracies, the following are the results of the top 3 most promising candidates.
 	
 	\begin{enumerate}
