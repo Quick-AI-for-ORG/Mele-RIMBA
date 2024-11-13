@@ -3,8 +3,8 @@ import serial
 import time
 
 THRESHOLD = 75.0  
-SKETCH = "sketch_oct14b/sketch_oct14b.ino"
-PORT = "/dev/cu.usbmodem11301"
+SKETCH = "Hardware Triggers\sketch_oct14b\sketch_oct14b.ino"
+PORT = "COM11"
 
 
 def compileArduino(SKETCH):
