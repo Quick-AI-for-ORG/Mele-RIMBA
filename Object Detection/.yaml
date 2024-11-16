@@ -6,12 +6,10 @@ val: images/val
 nc: 1 
 names: ['bee']
 
-# Image size
-imgsz: 640  # Image size for training and inference
+imgsz: 640  
 
 # Data augmentation
 augment:
-  # Augmentation parameters
   hsv_h: 0.015
   hsv_s: 0.7
   hsv_v: 0.4
@@ -26,20 +24,20 @@ augment:
   mixup: 0.5
 
 # Optimizer
-optimizer: ADAM  # Optimizer
+optimizer: SGD  
 lr0: 0.01  # Initial learning rate
 momentum: 0.937
 weight_decay: 0.0005
 
 # Scheduler
-epochs: 300  # Number of epochs
+epochs: 300  
 warmup_epochs: 10
 warmup_momentum: 0.8
 warmup_bias_lr: 0.1
-lrf: 0.1  # Final learning rate
+lrf: 0.1 # Final learning rate
 
-# Training parameters
 batch_size: 16
 workers: 8
-project: runs/train  # Output directory
-name: bees  # Experiment name
+project: runs/train 
+name: bees  
+cache: True
