@@ -40,7 +40,7 @@ def logSerialData(port, csv_file):
     with open(csv_file, mode = 'a') as file:
         writer = csv.writer(file)
         if file.tell() == 0:
-            writer.writerow(['Timestamp','Temperature', 'Humidity'])
+            writer.writerow(['Date_Time','Temperature', 'Humidity'])
         print("Logging data to csv. Press Ctrl+C to stop logging.")
         try:
             while True:
