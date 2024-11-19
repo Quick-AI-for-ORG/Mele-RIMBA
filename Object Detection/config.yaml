@@ -1,10 +1,10 @@
-path: C:\Users\Khaled\Documents\GitHub\Mele-RIMBA\Datasets\For YOLO\Bee 
+path: E:\Mele-RIMBA\Datasets\For YOLO\Bee
 
 train: images/train
 val: images/val
 
 nc: 1 
-names: ['bee']
+names: ['Insect']
 
 imgsz: 640  
 
