@@ -723,9 +723,10 @@ The proposed monitoring system will not only be the \textit{first} of its kind a
 	\item Among the forecasting process, five different forecasting models were utilized to evaluate the best-performing one based on a set of accuracy metrics.
 	\begin{table}[H]
 		\caption{Performance Metrics for Forecasting Models on Temperature Readings}
+		\vspace{0.5 cm}
 		\label{forecast_metrics}
 		\centering
-		\resizebox{0.8\columnwidth}{!}{%
+		\resizebox{\columnwidth}{!}{%
 			\centering
 			\begin{tabular}{|l|c|c|c|c|c|c|c|}
 				\hline
@@ -739,9 +740,10 @@ The proposed monitoring system will not only be the \textit{first} of its kind a
 	
 	\begin{table}[H]
 		\caption{Performance Metrics for Forecasting Models on Humidity Readings}
+		\vspace{0.5 cm}
 		\label{forecast_metrics_humidity}
 		\centering
-		\resizebox{0.8\columnwidth}{!}{%
+		\resizebox{\columnwidth}{!}{%
 			\centering
 			\begin{tabular}{|l|c|c|c|c|c|c|c|}
 				\hline
@@ -753,8 +755,20 @@ The proposed monitoring system will not only be the \textit{first} of its kind a
 		}
 	\end{table}
 		
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.8\textwidth]{Images/Plot/temp.png}
+				\caption{Actual VS Forecast Temperature }
+			\end{figure}
+			\begin{figure}[H]
+				\vspace{1 cm}
+				\centering
+				\includegraphics[width=0.8\textwidth]{Images/Plot/humid.png}
+			\caption{Actual VS Forecast Humidity}
+			\vspace{1 cm}
+		\end{figure}
 		
-		From this observation, the \textbf{ARIMA} model outperformed the highest accuracy with the lowest error across all metrics. Hence, we decided to select ARIMA to proceed with further analysis for forecasting in both temperature and humidity.
+		From this observation, the \textbf{ARIMA} model outperformed the highest accuracy with the lowest error across all metrics. Hence, we decided to select ARIMA to proceed with further analysis for forecasting in both temperature and humidity. \vspace{1 cm}
 		
 		
 		\item{Hardware Trigger Pseudo-Code}
