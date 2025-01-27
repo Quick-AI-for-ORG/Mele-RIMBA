@@ -6,3 +6,6 @@ Datasets
 catboost_info
 catboost_info/*
 Classifiers/classifiers.zip
+Classifiers/classifiers
+Object Detection/Test/
+Object Detection/cropped/
